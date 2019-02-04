@@ -1,0 +1,36 @@
+! urxvt
+
+URxvt*font: xft:inconsolata:pixelsize=11:antialias=true
+URxvt*boldFont:
+URxvt*scrollBar: false
+URxvt*cursorBlink: true
+URxvt*loginShell: true
+
+! Colors
+! foreground/background
+URxvt*background: #1B1E23
+URxvt*foreground: #8B8B8B
+! black (not black justsame as background)
+URxvt.color0  : #1B1E23
+URxvt.color8  : #1B1E23
+! magenta
+URxvt.color1  : #d33682
+URxvt.color9  : #d33682
+! green
+URxvt.color2  : #5e9825
+URxvt.color10 : #5e9825
+! yellow
+URxvt.color3  : #A19A67
+URxvt.color11 : #A19A67
+! blue
+URxvt.color4  : #4A81A8
+URxvt.color12 : #4A81A8
+! violet #AD7FA8
+URxvt.color5  : #AD7FA8
+URxvt.color13 : #AD7FA8
+! purple #75507B (needs to be cyan)
+URxvt.color6  : #2AA198
+URxvt.color14 : #2AA198
+! cyan
+URxvt.color7  : #2AA198
+URxvt.color15 : #2AA198
