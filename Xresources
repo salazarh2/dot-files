@@ -9,7 +9,7 @@ URxvt*loginShell: true
 ! Colors
 ! foreground/background
 URxvt*background: #1B1E23
-URxvt*foreground: #8B8B8B
+URxvt*foreground: #ADADAD
 ! black (not black justsame as background)
 URxvt.color0  : #1B1E23
 URxvt.color8  : #1B1E23
@@ -34,3 +34,8 @@ URxvt.color14 : #2AA198
 ! cyan
 URxvt.color7  : #2AA198
 URxvt.color15 : #2AA198
+
+
+
+
+
