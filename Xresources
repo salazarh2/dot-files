@@ -6,7 +6,6 @@ URxvt*scrollBar: false
 URxvt*cursorBlink: true
 URxvt*loginShell: true
 URxvt*fading:  30
-URxvt*cursorBlink: false
 
 ! Colors
 ! foreground/background
