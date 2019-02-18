@@ -1,0 +1,10 @@
+
+## Colored user prompt:
+
+PS1="\e[38;5;73m[\u: \e[38;5;23m\W \e[38;5;73m]\e[0m\$ "
+
+## Colored root prompt
+
+PS1="\e[38;5;84m[\e[38;5;48m\u: \e[38;5;23m\W \e[38;5;84m]\e[0m\$ "
+
+
