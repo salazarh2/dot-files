@@ -1,10 +1,28 @@
 
 ## Colored user prompt:
 
-PS1="\e[38;5;73m[\u: \e[38;5;23m\W \e[38;5;73m]\e[0m\$ "
+set_prompt () {
+	Yellow='\[\e[38;5;73m\]'
+	Blue='\[\e[38;5;23m\]'
+	BG='\[\e[0m\]'
+
+	PS1="$Yellow\\u: $Blue\\W $BG\\$ "
+}
+
+PROMPT_COMMAND='set_prompt'
+
 
 ## Colored root prompt
 
-PS1="\e[38;5;84m[\e[38;5;48m\u: \e[38;5;23m\W \e[38;5;84m]\e[0m\$ "
+set_prompt () {
+	BG='\[\e[0m\]'
+	Red='\[\e[38;5;48m\]'
+	Blue='\[\e[38;5;23m\]'
+
+	PS1="$Red\u: $Blue\W $BG\$ "
+}
+
+PROMPT_COMMAND='set_prompt'
+
 
 
